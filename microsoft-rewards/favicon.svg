@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Fondo -->
+  <rect width="64" height="64" rx="14" fill="#0f172a"/>
+
+  <!-- Cuerpo del smartphone -->
+  <rect x="18" y="10" width="28" height="44" rx="6" fill="#020617" stroke="#38bdf8" stroke-width="2"/>
+
+  <!-- Pantalla -->
+  <rect x="21" y="14" width="22" height="30" rx="4" fill="#0b1120"/>
+
+  <!-- Botón inferior -->
+  <circle cx="32" cy="47" r="2.5" fill="#38bdf8"/>
+
+  <!-- Estrella dentro de la pantalla -->
+  <path
+    d="M32 20.5l2.3 4.7 5.2.8-3.8 3.7.9 5.2-4.6-2.4-4.6 2.4.9-5.2-3.8-3.7 5.2-.8z"
+    fill="#facc15"
+  />
+</svg>
