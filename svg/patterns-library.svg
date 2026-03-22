@@ -1,0 +1,741 @@
+<svg width="0" height="0" style="position:absolute">
+  <defs>
+
+    <!-- ========================================================= -->
+    <!-- SVG PATTERN LIBRARY — JUAN CARLOS MARTÍNEZ ESTRADA        -->
+    <!-- A. PATTERNS FOR DARK BACKGROUNDS                          -->
+    <!-- Optimizada para headers y secciones oscuras               -->
+    <!-- ========================================================= -->
+
+
+    <!-- ========================================================= -->
+    <!-- A1. GEOMETRIC (DARK)                                      -->
+    <!-- ========================================================= -->
+
+    <pattern id="triangles-dark" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M20 5 L35 30 L5 30 Z" fill="currentColor" opacity="0.15" />
+    </pattern>
+
+    <pattern id="hexagons-dark" x="0" y="0" width="56" height="100" patternUnits="userSpaceOnUse">
+      <path d="M28 66L0 50L0 16L28 0L56 16L56 50L28 66L28 100" fill="none" stroke="currentColor" stroke-width="1" opacity="0.15" />
+    </pattern>
+
+    <pattern id="grid-dark" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="currentColor" stroke-width="1" opacity="0.1" />
+    </pattern>
+
+    <pattern id="diagonal-lines-dark" x="0" y="0" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="10" stroke="currentColor" stroke-width="1" opacity="0.2" />
+    </pattern>
+
+    <pattern id="zigzag-dark" x="0" y="0" width="40" height="20" patternUnits="userSpaceOnUse">
+      <path d="M0 10 L10 0 L20 10 L30 0 L40 10" fill="none" stroke="currentColor" stroke-width="1" opacity="0.15" />
+    </pattern>
+
+    <pattern id="waves-dark" x="0" y="0" width="50" height="20" patternUnits="userSpaceOnUse">
+      <path d="M0 10 C12.5 0 12.5 20 25 10 C37.5 0 37.5 20 50 10" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.2" />
+    </pattern>
+
+    <pattern id="repeated-polygons-dark" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M30 10 L50 20 L50 40 L30 50 L10 40 L10 20 Z" fill="currentColor" opacity="0.08" />
+    </pattern>
+
+    <pattern id="concentric-circles-dark" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
+      <circle cx="30" cy="30" r="10" fill="none" stroke="currentColor" opacity="0.1" />
+      <circle cx="30" cy="30" r="20" fill="none" stroke="currentColor" opacity="0.05" />
+    </pattern>
+
+    <pattern id="spirals-dark" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M50 50c0-5-4-9-9-9s-9 4-9 9 4 9 9 9 14-4 14-14-4-14-14-14-19 9-19 19 9 19 19 19" fill="none" stroke="currentColor" stroke-width="1" opacity="0.12" />
+    </pattern>
+
+
+
+    <!-- ========================================================= -->
+    <!-- A2. DOODLE (DARK)                                         -->
+    <!-- ========================================================= -->
+
+    <pattern id="doodle-circles-dark" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
+      <circle cx="25" cy="25" r="12" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="2 2" opacity="0.18" />
+    </pattern>
+
+    <pattern id="doodle-diamonds-dark" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M20 5 L35 20 L20 35 L5 20 Z" fill="none" stroke="currentColor" stroke-width="1" opacity="0.15" />
+    </pattern>
+
+    <pattern id="doodle-stars-dark" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M30 10 L33 22 L45 22 L35 30 L38 42 L30 35 L22 42 L25 30 L15 22 L27 22 Z" fill="currentColor" opacity="0.1" />
+    </pattern>
+
+    <pattern id="scribbles-dark" x="0" y="0" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M10 10 Q 30 10 30 30 T 50 50 T 70 70" fill="none" stroke="currentColor" opacity="0.1" />
+    </pattern>
+
+    <pattern id="irregular-strokes-dark" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M5 5 L15 10 M25 5 L35 15 M5 30 L15 25" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.12" />
+    </pattern>
+
+    <pattern id="hand-garbage-dark" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <circle cx="20" cy="20" r="2" fill="currentColor" opacity="0.1" />
+      <path d="M70 70 L80 85 M70 85 L80 70" stroke="currentColor" opacity="0.1" />
+      <rect x="40" y="10" width="5" height="5" fill="currentColor" opacity="0.1" />
+    </pattern>
+
+
+
+    <!-- ========================================================= -->
+    <!-- A3. OFFICE BACKGROUNDS (DARK)                             -->
+    <!-- ========================================================= -->
+
+    <pattern id="office-stars-dark" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M20 0 L22 18 L40 20 L22 22 L20 40 L18 22 L0 20 L18 18 Z" fill="currentColor" opacity="0.08" />
+    </pattern>
+
+    <pattern id="office-tree-rings-dark" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <circle cx="50" cy="50" r="10" fill="none" stroke="currentColor" opacity="0.1" />
+      <circle cx="50" cy="50" r="25" fill="none" stroke="currentColor" opacity="0.08" />
+      <circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" opacity="0.05" />
+    </pattern>
+
+    <pattern id="office-geometry-dark" x="0" y="0" width="80" height="80" patternUnits="userSpaceOnUse">
+      <rect x="10" y="10" width="20" height="20" fill="currentColor" opacity="0.1" />
+      <circle cx="60" cy="60" r="15" fill="currentColor" opacity="0.08" />
+    </pattern>
+
+    <pattern id="office-circles-stripes-dark" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
+      <circle cx="15" cy="15" r="8" fill="currentColor" opacity="0.1" />
+      <rect x="30" y="30" width="15" height="2" fill="currentColor" opacity="0.1" />
+    </pattern>
+
+    <pattern id="office-calligraphy-dark" x="0" y="0" width="120" height="60" patternUnits="userSpaceOnUse">
+      <path d="M10 30 Q 30 10 50 30 T 90 30" fill="none" stroke="currentColor" stroke-width="2" opacity="0.08" />
+    </pattern>
+
+    <pattern id="office-clouds-dark" x="0" y="0" width="100" height="60" patternUnits="userSpaceOnUse">
+      <path d="M20 40 Q30 20 50 40 T80 40" fill="none" stroke="currentColor" opacity="0.1" />
+    </pattern>
+
+    <pattern id="office-circuit-dark" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M10 10 H90 V40 H10 V70 H90" fill="none" stroke="currentColor" opacity="0.08" />
+      <circle cx="10" cy="10" r="2" fill="currentColor" opacity="0.1" />
+    </pattern>
+
+    <pattern id="office-straws-dark" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <rect x="18" y="0" width="4" height="40" fill="currentColor" opacity="0.06" transform="rotate(15, 20, 20)" />
+    </pattern>
+
+    <pattern id="office-school-supplies-dark" x="0" y="0" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M10 10 L25 10 L25 40 L10 40 Z" fill="none" stroke="currentColor" opacity="0.1" />
+      <circle cx="60" cy="20" r="5" fill="currentColor" opacity="0.08" />
+    </pattern>
+
+    <pattern id="office-underwater-dark" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M0 50 Q25 30 50 50 T100 50" fill="none" stroke="currentColor" opacity="0.07" />
+      <circle cx="80" cy="20" r="3" fill="currentColor" opacity="0.05" />
+    </pattern>
+
+    <pattern id="office-lunchbox-dark" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
+      <rect x="10" y="10" width="20" height="20" rx="4" fill="currentColor" opacity="0.08" />
+      <circle cx="45" cy="45" r="8" fill="currentColor" opacity="0.06" />
+    </pattern>
+
+    <pattern id="office-spring-dark" x="0" y="0" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M40 10 C50 10 50 30 40 30 C30 30 30 10 40 10" fill="currentColor" opacity="0.1" />
+      <path d="M40 30 L40 50" stroke="currentColor" opacity="0.08" />
+    </pattern>
+
+
+
+    <!-- ========================================================= -->
+    <!-- A4. ABSTRACT MODERN (DARK)                                -->
+    <!-- ========================================================= -->
+
+    <pattern id="noise-dark" x="0" y="0" width="2" height="2" patternUnits="userSpaceOnUse">
+      <rect width="1" height="1" fill="currentColor" opacity="0.2" />
+    </pattern>
+
+    <pattern id="grain-dark" x="0" y="0" width="4" height="4" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.5" fill="currentColor" opacity="0.25" />
+      <circle cx="3" cy="3" r="0.5" fill="currentColor" opacity="0.15" />
+    </pattern>
+
+    <pattern id="blur-spots-dark" x="0" y="0" width="200" height="200" patternUnits="userSpaceOnUse">
+      <circle cx="100" cy="100" r="50" fill="currentColor" opacity="0.05" />
+    </pattern>
+
+    <pattern id="soft-blobs-dark" x="0" y="0" width="150" height="150" patternUnits="userSpaceOnUse">
+      <path d="M75 25 C100 25 125 50 125 75 S100 125 75 125 S25 100 25 75 S50 25 75 25" fill="currentColor" opacity="0.04" />
+    </pattern>
+
+    <pattern id="fluid-waves-dark" x="0" y="0" width="200" height="100" patternUnits="userSpaceOnUse">
+      <path d="M0 50 Q50 0 100 50 T200 50" fill="none" stroke="currentColor" stroke-width="4" opacity="0.05" />
+    </pattern>
+
+    <pattern id="repeated-gradients-dark" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <linearGradient id="grad1-dark" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="currentColor" stop-opacity="0.1" />
+        <stop offset="100%" stop-color="currentColor" stop-opacity="0" />
+      </linearGradient>
+      <rect width="100" height="100" fill="url(#grad1-dark)" />
+    </pattern>
+
+    <pattern id="minimal-shapes-dark" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <rect x="10" y="10" width="10" height="10" rx="2" fill="currentColor" opacity="0.1" />
+      <circle cx="80" cy="80" r="5" fill="currentColor" opacity="0.1" />
+    </pattern>
+
+
+
+    <!-- ========================================================= -->
+    <!-- A5. THEMATIC (DARK)                                       -->
+    <!-- ========================================================= -->
+
+    <pattern id="space-dark" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1" fill="white" opacity="0.8" />
+      <circle cx="50" cy="70" r="1.5" fill="white" opacity="0.4" />
+      <circle cx="85" cy="25" r="1" fill="white" opacity="0.6" />
+      <path d="M30 30 A10 5 0 1 0 50 30 A10 5 0 1 0 30 30" fill="none" stroke="currentColor" opacity="0.1" />
+    </pattern>
+
+    <pattern id="nature-dark" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M30 10 Q40 25 30 40 Q20 25 30 10" fill="currentColor" opacity="0.1" />
+      <path d="M10 40 Q20 50 10 60 Q0 50 10 40" fill="currentColor" opacity="0.08" />
+    </pattern>
+
+    <pattern id="tech-dark" x="0" y="0" width="80" height="80" patternUnits="userSpaceOnUse">
+      <rect x="10" y="10" width="30" height="30" fill="none" stroke="currentColor" opacity="0.1" />
+      <circle cx="10" cy="10" r="2" fill="currentColor" opacity="0.15" />
+      <line x1="40" y1="25" x2="60" y2="25" stroke="currentColor" opacity="0.1" />
+    </pattern>
+
+    <pattern id="gaming-dark" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <rect x="5"  y="15" width="10" height="10" fill="currentColor" opacity="0.12" />
+      <rect x="25" y="15" width="10" height="10" fill="currentColor" opacity="0.12" />
+      <rect x="15" y="5"  width="10" height="10" fill="currentColor" opacity="0.12" />
+      <rect x="15" y="25" width="10" height="10" fill="currentColor" opacity="0.12" />
+    </pattern>
+
+    <pattern id="education-dark" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M20 20 H40 V60 H20 Z" fill="none" stroke="currentColor" opacity="0.1" />
+      <line x1="60" y1="20" x2="90" y2="20" stroke="currentColor" opacity="0.1" />
+      <line x1="60" y1="30" x2="85" y2="30" stroke="currentColor" opacity="0.1" />
+    </pattern>
+
+
+
+    <!-- ========================================================= -->
+    <!-- A6. TEXTURES (DARK)                                       -->
+    <!-- ========================================================= -->
+
+    <pattern id="paper-dark" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M0 0 L100 5 L100 100 L0 95 Z" fill="currentColor" opacity="0.03" />
+    </pattern>
+
+    <pattern id="wood-dark" x="0" y="0" width="200" height="20" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="10" x2="200" y2="10" stroke="currentColor" stroke-width="0.5" opacity="0.1" />
+      <ellipse cx="100" cy="10" rx="40" ry="5" fill="none" stroke="currentColor" opacity="0.05" />
+    </pattern>
+
+    <pattern id="metal-dark" x="0" y="0" width="10" height="10" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="10" y2="10" stroke="currentColor" stroke-width="0.1" opacity="0.2" />
+    </pattern>
+
+    <pattern id="fabric-dark" x="0" y="0" width="4" height="4" patternUnits="userSpaceOnUse">
+      <path d="M0 0 H4 M0 2 H4 M0 0 V4 M2 0 V4" stroke="currentColor" stroke-width="0.2" opacity="0.15" />
+    </pattern>
+
+    <pattern id="marble-dark" x="0" y="0" width="300" height="300" patternUnits="userSpaceOnUse">
+      <path d="M0 150 Q150 0 300 150 T600 150" fill="none" stroke="currentColor" opacity="0.04" />
+      <path d="M0 100 Q100 200 300 100" fill="none" stroke="currentColor" opacity="0.02" />
+    </pattern>
+
+    <pattern id="carbon-fiber-dark" x="0" y="0" width="8" height="8" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="currentColor" opacity="0.1" />
+      <rect x="4" y="4" width="4" height="4" fill="currentColor" opacity="0.1" />
+    </pattern>
+
+    <pattern id="concrete-dark" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <circle cx="20" cy="30" r="1" fill="currentColor" opacity="0.1" />
+      <circle cx="70" cy="80" r="1.5" fill="currentColor" opacity="0.08" />
+      <circle cx="40" cy="10" r="0.8" fill="currentColor" opacity="0.1" />
+    </pattern>
+
+
+
+    <!-- ========================================================= -->
+    <!-- A7. GENERATIVE (DARK)                                     -->
+    <!-- ========================================================= -->
+
+    <pattern id="fractals-dark" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M50 10 L60 40 L90 50 L60 60 L50 90 L40 60 L10 50 L40 40 Z" fill="currentColor" opacity="0.05" />
+      <path d="M50 30 L55 45 L70 50 L55 55 L50 70 L45 55 L30 50 L45 45 Z" fill="currentColor" opacity="0.1" />
+    </pattern>
+
+    <pattern id="voronoi-dark" x="0" y="0" width="120" height="120" patternUnits="userSpaceOnUse">
+      <path d="M0 0 L40 20 L30 70 L0 50 Z M40 20 L120 0 L100 60 L30 70 Z" fill="none" stroke="currentColor" opacity="0.08" />
+    </pattern>
+
+    <pattern id="perlin-noise-dark" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <filter id="perlin-dark">
+        <feTurbulence type="fractalNoise" baseFrequency="0.5" numOctaves="3" />
+      </filter>
+      <rect width="100" height="100" filter="url(#perlin-dark)" opacity="0.05" />
+    </pattern>
+
+    <pattern id="vector-fields-dark" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
+      <line x1="5" y1="25" x2="20" y2="25" stroke="currentColor" opacity="0.1" transform="rotate(20, 25, 25)" />
+      <line x1="30" y1="25" x2="45" y2="25" stroke="currentColor" opacity="0.1" transform="rotate(-15, 25, 25)" />
+    </pattern>
+
+    <pattern id="organic-shapes-dark" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M10 50 Q25 25 50 50 T90 50" fill="none" stroke="currentColor" stroke-width="2" opacity="0.06" />
+    </pattern>
+
+
+
+    <!-- ========================================================= -->
+    <!-- A8. MINIMAL PREMIUM (DARK)                                -->
+    <!-- ========================================================= -->
+
+    <pattern id="soft-dots-dark" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.5" fill="currentColor" opacity="0.15" />
+    </pattern>
+
+    <pattern id="thin-lines-dark" x="0" y="0" width="100" height="10" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="5" x2="100" y2="5" stroke="currentColor" stroke-width="0.5" opacity="0.08" />
+    </pattern>
+
+    <pattern id="big-blurred-circles-dark" x="0" y="0" width="400" height="400" patternUnits="userSpaceOnUse">
+      <circle cx="200" cy="200" r="100" fill="currentColor" opacity="0.03" />
+    </pattern>
+
+    <pattern id="corner-glow-dark" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <radialGradient id="corner-grad-dark">
+        <stop offset="0%" stop-color="currentColor" stop-opacity="0.1" />
+        <stop offset="100%" stop-color="currentColor" stop-opacity="0" />
+      </radialGradient>
+      <rect width="50" height="50" fill="url(#corner-grad-dark)" />
+    </pattern>
+
+    <pattern id="soft-halos-dark" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <circle cx="50" cy="50" r="30" fill="none" stroke="currentColor" stroke-width="10" opacity="0.03" />
+    </pattern>
+
+    <pattern id="low-opacity-shapes-dark" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
+      <rect x="10" y="10" width="40" height="40" rx="10" fill="currentColor" opacity="0.04" />
+    </pattern>
+
+
+
+    <!-- ========================================================= -->
+    <!-- A9. GEMINI (DARK)                                         -->
+    <!-- ========================================================= -->
+
+    <pattern id="gemini-dots-dark" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="currentColor" opacity="0.18" />
+    </pattern>
+
+
+
+
+
+    <!-- ========================================================= -->
+    <!-- B. PATTERNS FOR LIGHT BACKGROUNDS                         -->
+    <!-- ========================================================= -->
+
+
+    <!-- ========================================================= -->
+    <!-- B1. GEOMETRIC (LIGHT) — opacidad reducida al 35%          -->
+    <!-- ========================================================= -->
+
+    <pattern id="triangles-light" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M20 5 L35 30 L5 30 Z" fill="currentColor" opacity="0.052" />
+    </pattern>
+
+    <pattern id="hexagons-light" x="0" y="0" width="56" height="100" patternUnits="userSpaceOnUse">
+      <path d="M28 66L0 50L0 16L28 0L56 16L56 50L28 66L28 100" fill="none" stroke="currentColor" stroke-width="1" opacity="0.052" />
+    </pattern>
+
+    <pattern id="grid-light" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="currentColor" stroke-width="1" opacity="0.035" />
+    </pattern>
+
+    <pattern id="diagonal-lines-light" x="0" y="0" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="10" stroke="currentColor" stroke-width="1" opacity="0.07" />
+    </pattern>
+
+    <pattern id="zigzag-light" x="0" y="0" width="40" height="20" patternUnits="userSpaceOnUse">
+      <path d="M0 10 L10 0 L20 10 L30 0 L40 10" fill="none" stroke="currentColor" stroke-width="1" opacity="0.052" />
+    </pattern>
+
+    <pattern id="waves-light" x="0" y="0" width="50" height="20" patternUnits="userSpaceOnUse">
+      <path d="M0 10 C12.5 0 12.5 20 25 10 C37.5 0 37.5 20 50 10" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.07" />
+    </pattern>
+
+    <pattern id="repeated-polygons-light" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M30 10 L50 20 L50 40 L30 50 L10 40 L10 20 Z" fill="currentColor" opacity="0.028" />
+    </pattern>
+
+    <pattern id="concentric-circles-light" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
+      <circle cx="30" cy="30" r="10" fill="none" stroke="currentColor" opacity="0.035" />
+      <circle cx="30" cy="30" r="20" fill="none" stroke="currentColor" opacity="0.017" />
+    </pattern>
+
+    <pattern id="spirals-light" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M50 50c0-5-4-9-9-9s-9 4-9 9 4 9 9 9 14-4 14-14-4-14-14-14-19 9-19 19 9 19 19 19" fill="none" stroke="currentColor" stroke-width="1" opacity="0.042" />
+    </pattern>
+
+
+
+    <!-- ========================================================= -->
+    <!-- B2. DOODLE (LIGHT) — opacidad reducida al 50%             -->
+    <!-- ========================================================= -->
+
+    <pattern id="doodle-circles-light" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
+      <circle cx="25" cy="25" r="12" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="2 2" opacity="0.09" />
+    </pattern>
+
+    <pattern id="doodle-diamonds-light" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M20 5 L35 20 L20 35 L5 20 Z" fill="none" stroke="currentColor" stroke-width="1" opacity="0.075" />
+    </pattern>
+
+    <pattern id="doodle-stars-light" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M30 10 L33 22 L45 22 L35 30 L38 42 L30 35 L22 42 L25 30 L15 22 L27 22 Z" fill="currentColor" opacity="0.05" />
+    </pattern>
+
+    <pattern id="scribbles-light" x="0" y="0" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M10 10 Q 30 10 30 30 T 50 50 T 70 70" fill="none" stroke="currentColor" opacity="0.05" />
+    </pattern>
+
+    <pattern id="irregular-strokes-light" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M5 5 L15 10 M25 5 L35 15 M5 30 L15 25" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.06" />
+    </pattern>
+
+    <pattern id="hand-garbage-light" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <circle cx="20" cy="20" r="2" fill="currentColor" opacity="0.05" />
+      <path d="M70 70 L80 85 M70 85 L80 70" stroke="currentColor" opacity="0.05" />
+      <rect x="40" y="10" width="5" height="5" fill="currentColor" opacity="0.05" />
+    </pattern>
+
+
+
+    <!-- ========================================================= -->
+    <!-- B3. OFFICE BACKGROUNDS (LIGHT) — opacidad reducida al 40% -->
+    <!-- ========================================================= -->
+
+    <pattern id="office-stars-light" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M20 0 L22 18 L40 20 L22 22 L20 40 L18 22 L0 20 L18 18 Z" fill="currentColor" opacity="0.032" />
+    </pattern>
+
+    <pattern id="office-tree-rings-light" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <circle cx="50" cy="50" r="10" fill="none" stroke="currentColor" opacity="0.04" />
+      <circle cx="50" cy="50" r="25" fill="none" stroke="currentColor" opacity="0.032" />
+      <circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" opacity="0.02" />
+    </pattern>
+
+    <pattern id="office-geometry-light" x="0" y="0" width="80" height="80" patternUnits="userSpaceOnUse">
+      <rect x="10" y="10" width="20" height="20" fill="currentColor" opacity="0.04" />
+      <circle cx="60" cy="60" r="15" fill="currentColor" opacity="0.032" />
+    </pattern>
+
+    <pattern id="office-circles-stripes-light" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
+      <circle cx="15" cy="15" r="8" fill="currentColor" opacity="0.04" />
+      <rect x="30" y="30" width="15" height="2" fill="currentColor" opacity="0.04" />
+    </pattern>
+
+    <pattern id="office-calligraphy-light" x="0" y="0" width="120" height="60" patternUnits="userSpaceOnUse">
+      <path d="M10 30 Q 30 10 50 30 T 90 30" fill="none" stroke="currentColor" stroke-width="2" opacity="0.032" />
+    </pattern>
+
+    <pattern id="office-clouds-light" x="0" y="0" width="100" height="60" patternUnits="userSpaceOnUse">
+      <path d="M20 40 Q30 20 50 40 T80 40" fill="none" stroke="currentColor" opacity="0.04" />
+    </pattern>
+
+    <pattern id="office-circuit-light" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M10 10 H90 V40 H10 V70 H90" fill="none" stroke="currentColor" opacity="0.032" />
+      <circle cx="10" cy="10" r="2" fill="currentColor" opacity="0.04" />
+    </pattern>
+
+    <pattern id="office-straws-light" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <rect x="18" y="0" width="4" height="40" fill="currentColor" opacity="0.024" transform="rotate(15, 20, 20)" />
+    </pattern>
+
+    <pattern id="office-school-supplies-light" x="0" y="0" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M10 10 L25 10 L25 40 L10 40 Z" fill="none" stroke="currentColor" opacity="0.04" />
+      <circle cx="60" cy="20" r="5" fill="currentColor" opacity="0.032" />
+    </pattern>
+
+    <pattern id="office-underwater-light" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M0 50 Q25 30 50 50 T100 50" fill="none" stroke="currentColor" opacity="0.028" />
+      <circle cx="80" cy="20" r="3" fill="currentColor" opacity="0.02" />
+    </pattern>
+
+    <pattern id="office-lunchbox-light" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
+      <rect x="10" y="10" width="20" height="20" rx="4" fill="currentColor" opacity="0.032" />
+      <circle cx="45" cy="45" r="8" fill="currentColor" opacity="0.024" />
+    </pattern>
+
+    <pattern id="office-spring-light" x="0" y="0" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M40 10 C50 10 50 30 40 30 C30 30 30 10 40 10" fill="currentColor" opacity="0.04" />
+      <path d="M40 30 L40 50" stroke="currentColor" opacity="0.032" />
+    </pattern>
+
+        <!-- ========================================================= -->
+    <!-- B4. ABSTRACT MODERN (LIGHT) — opacidad 30%–50%            -->
+    <!-- ========================================================= -->
+
+    <pattern id="noise-light" x="0" y="0" width="2" height="2" patternUnits="userSpaceOnUse">
+      <rect width="1" height="1" fill="currentColor" opacity="0.10" />
+    </pattern>
+
+    <pattern id="grain-light" x="0" y="0" width="4" height="4" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.5" fill="currentColor" opacity="0.10" />
+      <circle cx="3" cy="3" r="0.5" fill="currentColor" opacity="0.06" />
+    </pattern>
+
+    <pattern id="blur-spots-light" x="0" y="0" width="200" height="200" patternUnits="userSpaceOnUse">
+      <circle cx="100" cy="100" r="50" fill="currentColor" opacity="0.03" />
+    </pattern>
+
+    <pattern id="soft-blobs-light" x="0" y="0" width="150" height="150" patternUnits="userSpaceOnUse">
+      <path d="M75 25 C100 25 125 50 125 75 S100 125 75 125 S25 100 25 75 S50 25 75 25" fill="currentColor" opacity="0.02" />
+    </pattern>
+
+    <pattern id="fluid-waves-light" x="0" y="0" width="200" height="100" patternUnits="userSpaceOnUse">
+      <path d="M0 50 Q50 0 100 50 T200 50" fill="none" stroke="currentColor" stroke-width="4" opacity="0.02" />
+    </pattern>
+
+    <pattern id="repeated-gradients-light" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <linearGradient id="grad1-light" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="currentColor" stop-opacity="0.04" />
+        <stop offset="100%" stop-color="currentColor" stop-opacity="0" />
+      </linearGradient>
+      <rect width="100" height="100" fill="url(#grad1-light)" />
+    </pattern>
+
+    <pattern id="minimal-shapes-light" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <rect x="10" y="10" width="10" height="10" rx="2" fill="currentColor" opacity="0.04" />
+      <circle cx="80" cy="80" r="5" fill="currentColor" opacity="0.04" />
+    </pattern>
+
+
+
+    <!-- ========================================================= -->
+    <!-- B5. THEMATIC (LIGHT) — opacidad reducida al 50%           -->
+    <!-- ========================================================= -->
+
+    <pattern id="space-light" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1" fill="currentColor" opacity="0.40" />
+      <circle cx="50" cy="70" r="1.5" fill="currentColor" opacity="0.20" />
+      <circle cx="85" cy="25" r="1" fill="currentColor" opacity="0.30" />
+      <path d="M30 30 A10 5 0 1 0 50 30 A10 5 0 1 0 30 30" fill="none" stroke="currentColor" opacity="0.05" />
+    </pattern>
+
+    <pattern id="nature-light" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M30 10 Q40 25 30 40 Q20 25 30 10" fill="currentColor" opacity="0.05" />
+      <path d="M10 40 Q20 50 10 60 Q0 50 10 40" fill="currentColor" opacity="0.04" />
+    </pattern>
+
+    <pattern id="tech-light" x="0" y="0" width="80" height="80" patternUnits="userSpaceOnUse">
+      <rect x="10" y="10" width="30" height="30" fill="none" stroke="currentColor" opacity="0.05" />
+      <circle cx="10" cy="10" r="2" fill="currentColor" opacity="0.075" />
+      <line x1="40" y1="25" x2="60" y2="25" stroke="currentColor" opacity="0.05" />
+    </pattern>
+
+    <pattern id="gaming-light" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <rect x="5"  y="15" width="10" height="10" fill="currentColor" opacity="0.06" />
+      <rect x="25" y="15" width="10" height="10" fill="currentColor" opacity="0.06" />
+      <rect x="15" y="5"  width="10" height="10" fill="currentColor" opacity="0.06" />
+      <rect x="15" y="25" width="10" height="10" fill="currentColor" opacity="0.06" />
+    </pattern>
+
+    <pattern id="education-light" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M20 20 H40 V60 H20 Z" fill="none" stroke="currentColor" opacity="0.05" />
+      <line x1="60" y1="20" x2="90" y2="20" stroke="currentColor" opacity="0.05" />
+      <line x1="60" y1="30" x2="85" y2="30" stroke="currentColor" opacity="0.05" />
+    </pattern>
+
+
+
+    <!-- ========================================================= -->
+    <!-- B6. TEXTURES (LIGHT) — opacidad reducida al 30%           -->
+    <!-- ========================================================= -->
+
+    <pattern id="paper-light" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M0 0 L100 5 L100 100 L0 95 Z" fill="currentColor" opacity="0.01" />
+    </pattern>
+
+    <pattern id="wood-light" x="0" y="0" width="200" height="20" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="10" x2="200" y2="10" stroke="currentColor" stroke-width="0.5" opacity="0.03" />
+      <ellipse cx="100" cy="10" rx="40" ry="5" fill="none" stroke="currentColor" opacity="0.015" />
+    </pattern>
+
+    <pattern id="metal-light" x="0" y="0" width="10" height="10" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="10" y2="10" stroke="currentColor" stroke-width="0.1" opacity="0.06" />
+    </pattern>
+
+    <pattern id="fabric-light" x="0" y="0" width="4" height="4" patternUnits="userSpaceOnUse">
+      <path d="M0 0 H4 M0 2 H4 M0 0 V4 M2 0 V4" stroke="currentColor" stroke-width="0.2" opacity="0.045" />
+    </pattern>
+
+    <pattern id="marble-light" x="0" y="0" width="300" height="300" patternUnits="userSpaceOnUse">
+      <path d="M0 150 Q150 0 300 150 T600 150" fill="none" stroke="currentColor" opacity="0.012" />
+      <path d="M0 100 Q100 200 300 100" fill="none" stroke="currentColor" opacity="0.006" />
+    </pattern>
+
+    <pattern id="carbon-fiber-light" x="0" y="0" width="8" height="8" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="currentColor" opacity="0.03" />
+      <rect x="4" y="4" width="4" height="4" fill="currentColor" opacity="0.03" />
+    </pattern>
+
+    <pattern id="concrete-light" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <circle cx="20" cy="30" r="1" fill="currentColor" opacity="0.03" />
+      <circle cx="70" cy="80" r="1.5" fill="currentColor" opacity="0.024" />
+      <circle cx="40" cy="10" r="0.8" fill="currentColor" opacity="0.03" />
+    </pattern>
+
+
+
+    <!-- ========================================================= -->
+    <!-- B7. GENERATIVE (LIGHT) — opacidad reducida al 40%         -->
+    <!-- ========================================================= -->
+
+    <pattern id="fractals-light" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M50 10 L60 40 L90 50 L60 60 L50 90 L40 60 L10 50 L40 40 Z" fill="currentColor" opacity="0.02" />
+      <path d="M50 30 L55 45 L70 50 L55 55 L50 70 L45 55 L30 50 L45 45 Z" fill="currentColor" opacity="0.04" />
+    </pattern>
+
+    <pattern id="voronoi-light" x="0" y="0" width="120" height="120" patternUnits="userSpaceOnUse">
+      <path d="M0 0 L40 20 L30 70 L0 50 Z M40 20 L120 0 L100 60 L30 70 Z" fill="none" stroke="currentColor" opacity="0.032" />
+    </pattern>
+
+    <pattern id="perlin-noise-light" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <filter id="perlin-light">
+        <feTurbulence type="fractalNoise" baseFrequency="0.5" numOctaves="3" />
+      </filter>
+      <rect width="100" height="100" filter="url(#perlin-light)" opacity="0.02" />
+    </pattern>
+
+    <pattern id="vector-fields-light" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
+      <line x1="5" y1="25" x2="20" y2="25" stroke="currentColor" opacity="0.04" transform="rotate(20, 25, 25)" />
+      <line x1="30" y1="25" x2="45" y2="25" stroke="currentColor" opacity="0.04" transform="rotate(-15, 25, 25)" />
+    </pattern>
+
+    <pattern id="organic-shapes-light" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M10 50 Q25 25 50 50 T90 50" fill="none" stroke="currentColor" stroke-width="2" opacity="0.024" />
+    </pattern>
+
+
+
+    <!-- ========================================================= -->
+    <!-- B8. MINIMAL PREMIUM (LIGHT) — opacidad reducida al 60%    -->
+    <!-- ========================================================= -->
+
+    <pattern id="soft-dots-light" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.5" fill="currentColor" opacity="0.09" />
+    </pattern>
+
+    <pattern id="thin-lines-light" x="0" y="0" width="100" height="10" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="5" x2="100" y2="5" stroke="currentColor" stroke-width="0.5" opacity="0.048" />
+    </pattern>
+
+    <pattern id="big-blurred-circles-light" x="0" y="0" width="400" height="400" patternUnits="userSpaceOnUse">
+      <circle cx="200" cy="200" r="100" fill="currentColor" opacity="0.018" />
+    </pattern>
+
+    <pattern id="corner-glow-light" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <radialGradient id="corner-grad-light">
+        <stop offset="0%" stop-color="currentColor" stop-opacity="0.06" />
+        <stop offset="100%" stop-color="currentColor" stop-opacity="0" />
+      </radialGradient>
+      <rect width="50" height="50" fill="url(#corner-grad-light)" />
+    </pattern>
+
+    <pattern id="soft-halos-light" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <circle cx="50" cy="50" r="30" fill="none" stroke="currentColor" stroke-width="10" opacity="0.018" />
+    </pattern>
+
+    <pattern id="low-opacity-shapes-light" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
+      <rect x="10" y="10" width="40" height="40" rx="10" fill="currentColor" opacity="0.024" />
+    </pattern>
+
+
+
+    <!-- ========================================================= -->
+    <!-- B9. GEMINI (LIGHT) — opacidad reducida al 30%             -->
+    <!-- ========================================================= -->
+
+    <pattern id="gemini-dots-light" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="currentColor" opacity="0.054" />
+    </pattern>
+
+
+
+
+
+    <!-- ========================================================= -->
+    <!-- C. UNIVERSAL PATTERNS (DARK & LIGHT)                      -->
+    <!-- ========================================================= -->
+    <!-- Patrones que funcionan igual en ambos modos               -->
+    <!-- No requieren duplicado                                    -->
+    <!-- ========================================================= -->
+
+
+    <!-- ========================================================= -->
+    <!-- C1. UNIVERSAL ABSTRACT                                    -->
+    <!-- ========================================================= -->
+
+    <pattern id="universal-blur" x="0" y="0" width="200" height="200" patternUnits="userSpaceOnUse">
+      <circle cx="100" cy="100" r="60" fill="currentColor" opacity="0.04" />
+    </pattern>
+
+    <pattern id="universal-soft-blobs" x="0" y="0" width="150" height="150" patternUnits="userSpaceOnUse">
+      <path d="M75 25 C100 25 125 50 125 75 S100 125 75 125 S25 100 25 75 S50 25 75 25"
+            fill="currentColor" opacity="0.04" />
+    </pattern>
+
+    <pattern id="universal-waves" x="0" y="0" width="200" height="100" patternUnits="userSpaceOnUse">
+      <path d="M0 50 Q50 0 100 50 T200 50"
+            fill="none" stroke="currentColor" stroke-width="4" opacity="0.04" />
+    </pattern>
+
+    <pattern id="universal-gradients" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <linearGradient id="universal-grad-1" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="currentColor" stop-opacity="0.06" />
+        <stop offset="100%" stop-color="currentColor" stop-opacity="0" />
+      </linearGradient>
+      <rect width="100" height="100" fill="url(#universal-grad-1)" />
+    </pattern>
+
+    <pattern id="universal-minimal-shapes" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <rect x="10" y="10" width="12" height="12" rx="3" fill="currentColor" opacity="0.06" />
+      <circle cx="80" cy="80" r="6" fill="currentColor" opacity="0.06" />
+    </pattern>
+
+
+
+    <!-- ========================================================= -->
+    <!-- C2. UNIVERSAL ORGANIC                                     -->
+    <!-- ========================================================= -->
+
+    <pattern id="universal-organic" x="0" y="0" width="120" height="120" patternUnits="userSpaceOnUse">
+      <path d="M10 60 Q40 20 70 60 T130 60"
+            fill="none" stroke="currentColor" stroke-width="3" opacity="0.04" />
+    </pattern>
+
+    <pattern id="universal-halftone" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="5" cy="5" r="2" fill="currentColor" opacity="0.05" />
+      <circle cx="20" cy="20" r="3" fill="currentColor" opacity="0.04" />
+      <circle cx="35" cy="35" r="2" fill="currentColor" opacity="0.05" />
+    </pattern>
+
+    <pattern id="universal-halos" x="0" y="0" width="120" height="120" patternUnits="userSpaceOnUse">
+      <circle cx="60" cy="60" r="40" fill="none" stroke="currentColor" stroke-width="12" opacity="0.02" />
+    </pattern>
+
+    <pattern id="universal-big-blur" x="0" y="0" width="300" height="300" patternUnits="userSpaceOnUse">
+      <circle cx="150" cy="150" r="120" fill="currentColor" opacity="0.02" />
+    </pattern>
+
+  </defs>
+</svg>
